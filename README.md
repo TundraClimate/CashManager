@@ -1,0 +1,2 @@
+# CashManager
+Minecraft Spigot Library

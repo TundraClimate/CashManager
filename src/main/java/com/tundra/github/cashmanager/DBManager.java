@@ -88,7 +88,5 @@ public class DBManager {
         return getCash(player) >= cashValue;
     }
 
-    protected static SQLite getCashDB() {
-        return cashDB;
-    }
+    protected static SQLite getCashDB() {return cashDB;}
 }

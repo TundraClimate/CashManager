@@ -13,7 +13,5 @@ public final class CashManager extends JavaPlugin {
         new DetectLogin(this);
     }
     @Override
-    public void onDisable() {
-        DBManager.getCashDB().disconnectSQLite();
-    }
+    public void onDisable() {DBManager.getCashDB().disconnectSQLite();}
 }

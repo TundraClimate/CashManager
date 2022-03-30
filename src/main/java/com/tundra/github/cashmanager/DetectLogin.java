@@ -6,9 +6,7 @@ import org.bukkit.event.player.PlayerJoinEvent;
 import org.bukkit.plugin.java.JavaPlugin;
 
 public class DetectLogin implements Listener {
-    public DetectLogin(JavaPlugin plugin){
-        plugin.getServer().getPluginManager().registerEvents(this,plugin);
-    }
+    public DetectLogin(JavaPlugin plugin){plugin.getServer().getPluginManager().registerEvents(this,plugin);}
     @EventHandler
     public void LoginDetect(PlayerJoinEvent e){
         DBManager.addPlayer(e.getPlayer());

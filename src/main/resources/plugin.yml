@@ -1,0 +1,6 @@
+name: CashManager
+version: '${version}'
+main: com.tundra.github.cashmanager.CashManager
+api-version: 1.18
+authors: [ Tundra_Climate ]
+description: Minecraft CashManager
